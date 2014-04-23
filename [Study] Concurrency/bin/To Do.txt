@@ -1,0 +1,17 @@
+TO CHECK/STUDY
+
+- Happens before
+- Threadlocal
+- Atomicreference
+- Forkjoinpool @Java 7
+- Optional @Guava & @Java 8
+
+
+ADVICE
+
+- When writing in a volatile variable, all previously written into variables are flushed to RAM 
+  (happens-before property of volatile variables)
+- XML processing is unsafe
+- Even if two or more methods are synchronized, their combinations are not
+- Use reentrant read write lock when reading is different from writing
+- Prefer immutable data structires to synchronization
