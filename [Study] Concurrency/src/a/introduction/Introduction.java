@@ -20,7 +20,7 @@ public class Introduction
 	 * <Threads> allow multiple streams of program control flow to coexist within a process. They share process wide resources
 	 * such as memory and file handles, but each thread has its own program counter, stack and local variables. Threads are
 	 * called lightweight processes and most OSs treat them as the basic units of scheduling. In the absence of explicit
-	 * coordination, threads execute simultaneously and asynchronously wrt one another. Since threads share share the memory
+	 * coordination, threads execute simultaneously and asynchronously wrt one another. Since threads share the memory
 	 * address space of their owning process, all threads within a process have access to the same variables and allocate 
 	 * objects from the same heap. This allows for a finer-grained data sharing and inter-process communication.
 	 */
@@ -103,7 +103,7 @@ public class Introduction
 	 * ("something good eventually happens")
 	 * 
 	 * A liveness failure occurs when an activity gets into a state such that it is permanently unable to make forward progress. Forms of
-	 * liveness failures include deadlocks, starvation and livelocks.. For example: thread A is waiting for a resource that thread B is 
+	 * liveness failures include deadlocks, starvation and livelocks. For example: thread A is waiting for a resource that thread B is 
 	 * holding exclusively, and B never releases it, A will wait forever.
 	 */
 	
